@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>notNotion - Daily Quizy to test your Javascript knowledge!</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<main>
+			<section class="quiz">
+				<div class="heading">
+					<p class="title">notNotion</p>
+					<p class="subtitle">Daily quiz to test your Javascript knowledge</p>
+				</div>
+				<div class="result hide">
+					<p>You scored 5/5</p>
+					<p class="reload">
+						<button onclick="document.location.reload(true)">Try Again!</button>
+					</p>
+				</div>
+				<form class="quiz-form">
+					<div class="question">
+						<p>1. What is the correct way to declare a JavaScript variable?</p>
+						<div class="option">
+							<input type="radio" name="q1" value="A" checked />
+							<label for="">var myVar;</label>
+						</div>
+						<div class="option">
+							<input type="radio" name="q1" value="B" />
+							<label for="">let myVar;</label>
+						</div>
+						<div class="option">
+							<input type="radio" name="q1" value="C" />
+							<label for="">const myVar;</label>
+						</div>
+						<div class="option">
+							<input type="radio" name="q1" value="D" />
+							<label for="">All of the above</label>
+						</div>
+                        </div>
+                        <div class="question">
+						<p>2. Which method is used to convert a JSON object to a string in JavaScript?</p>
+						<div class="option">
+							<input type="radio" name="q2" value="A" checked />
+							<label for="">JSON.stringify()</label>
+						</div>
+						<div class="option">
+							<input type="radio" name="q2" value="B" />
+							<label for="">JSON.parse()</label>
+						</div>
+						<div class="option">
+							<input type="radio" name="q2" value="C" />
+							<label for="">toString()</label>
+						</div>
+						<div class="option">
+							<input type="radio" name="q2" value="D" />
+							<label for="">parseJSON()</label>
+						</div>
+                    </div>
+                    <div class="question">
+						<p>3. Which of the following is not a JavaScript data type?</p>
+						<div class="option">
+							<input type="radio" name="q3" value="A" checked />
+							<label for="">String</label>
+						</div>
+						<div class="option">
+							<input type="radio" name="q3" value="B" />
+							<label for="">Boolean</label>
+						</div>
+						<div class="option">
+							<input type="radio" name="q3" value="C" />
+							<label for="">Float</label>
+						</div>
+						<div class="option">
+							<input type="radio" name="q3" value="D" />
+							<label for="">Undefined</label>
+						</div>
+                    </div>
+                    <div class="question">
+						<p>4. What does the map() method do in JavaScript?</p>
+						<div class="option">
+							<input type="radio" name="q4" value="A" checked />
+							<label for="">It filters an array based on a condition.</label>
+						</div>
+						<div class="option">
+							<input type="radio" name="q4" value="B" />
+							<label for="">It iterates over an array and returns a new array with modified values.</label>
+						</div>
+						<div class="option">
+							<input type="radio" name="q4" value="C" />
+							<label for="">It sorts the elements of an array.</label>
+						</div>
+						<div class="option">
+							<input type="radio" name="q4" value="D" />
+							<label for="">It joins two or more arrays into one.</label>
+						</div>
+                    </div>
+                    <div class="question">
+						<p>5. Which of the following is the correct syntax to create an arrow function in JavaScript?
+
+                        </p>
+						<div class="option">
+							<input type="radio" name="q5" value="A" checked />
+							<label for="">function myFunc() { }</label>
+						</div>
+						<div class="option">
+							<input type="radio" name="q5" value="B" />
+							<label for="">let myFunc = () => { }</label>
+						</div>
+						<div class="option">
+							<input type="radio" name="q5" value="C" />
+							<label for="">let myFunc = function => { }</label>
+						</div>
+						<div class="option">
+							<input type="radio" name="q5" value="D" />
+							<label for="">myFunc = () -> { }</label>
+						</div>
+                    </div>
+					</div>
+                    <div class="submit">
+                        <input type="submit" value="submit">
+                    </div>
+				</form>
+			</section>
+		</main>
+        <script src="./index.js"></script>
+	</body>
+</html>
